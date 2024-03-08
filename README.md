@@ -1,35 +1,33 @@
-# Vitest
+# Qlty Typescript NextJs Coverage Example
 
-This example shows how to use [Vitest](https://github.com/vitest-dev/vitest) with Next.js.
+[Qlty](https://example.com) is a Code Health Platform with support for code coverage.
 
-This includes Next.js' built-in support for Global CSS, CSS Modules and TypeScript. This example also shows how to use Vitest with the App Router and React Server Components.
+This repository is an example using Qlty to track code coverage for a Typescript NextJs project. Coverage data is generated during test suite run and then uploaded to Qlty.
 
-> **Note:** Since tests can be co-located alongside other files inside the App Router, we have placed those tests in `app/` to demonstrate this behavior (which is different than `pages/`). You can still place all tests in `__tests__` if you prefer.
+This repository uses [vitest](https://vitest.dev/) for testing and generating coverage report.
 
-## Deploy your own
+## Requirements
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-vitest&project-name=with-vitest&repository-name=with-vitest)
+- Node 18 or above
+- [NextJs](https://nextjs.org/)
+- [Vitest](https://vitest.dev/)
+- Run tests with `npm test`
+- An account on Qlty (free for open source)
+- `QLTY_COVERAGE_TOKEN` is set as a GitHub Actions [repository secret](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions#creating-secrets-for-a-repository)
 
-## How to use
+## Set up
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+See [`.github/workflows/main.yml`](./.github/workflows/main.yml) in this repository for a basic configuration.
 
-```bash
-npx create-next-app --example with-vitest with-vitest-app
-```
+## Documentation
 
-```bash
-yarn create next-app --example with-vitest with-vitest-app
-```
+- [Advanced code coverage configuration](https://example.com)
+- [Alternative supported CI providers](https://example.com)
 
-```bash
-pnpm create next-app --example with-vitest with-vitest-app
-```
+## Help and feedback
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Join the our [Slack Community](https://example.com) for help and to provide feedback that we'll use to improve Qlty.
 
-## Running Tests
+## License
 
-```bash
-npm test
-```
+[MIT License](./LICENSE.md)
