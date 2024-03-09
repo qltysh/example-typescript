@@ -1,15 +1,15 @@
-# Qlty Typescript NextJs Coverage Example
+# Qlty TypeScript (Next.js) Coverage Example
 
 [Qlty](https://example.com) is a Code Health Platform with support for code coverage.
 
-This repository is an example using Qlty to track code coverage for a Typescript NextJs project. Coverage data is generated during test suite run and then uploaded to Qlty.
+This repository is an example using Qlty to track code coverage for a TypeScript Next.js project. Coverage data is generated during test suite run and then uploaded to Qlty.
 
-This repository uses [vitest](https://vitest.dev/) for testing and generating coverage report.
+This repository uses [Vitest](https://vitest.dev/) for testing and generating coverage report.
 
 ## Requirements
 
 - Node 18 or above
-- [NextJs](https://nextjs.org/)
+- [Next.js](https://nextjs.org/)
 - [Vitest](https://vitest.dev/)
 - Run tests with `npm test`
 - An account on Qlty (free for open source)
