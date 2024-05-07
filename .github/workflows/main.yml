@@ -37,7 +37,7 @@ jobs:
       - name: Run tests
         run: npm test
 
-      - uses: qltyai/qlty-action/coverage@main
+      - uses: qltyai/qlty-action/coverage@handle_pr_event
         with:
           coverage-token: ${{ secrets.QLTY_COVERAGE_TOKEN }}
           file: coverage/lcov.info
