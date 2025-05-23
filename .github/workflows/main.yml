@@ -34,8 +34,12 @@ jobs:
 
       - name: Run tests
         run: npm test
-
+        
+      - name: Copy lcov.info to /tmp/coverage
+        run: |
+          mkdir -p /tmp/coverage
+          cp coverage/lcov.info /tmp/coverage/lcov.info
       - uses: qltysh/qlty-action/coverage@v1
         with:
           oidc: true
-          files: /home/runner/work/example-typescript/example-typescript/coverage/lcov.info
+          files: /tmp/coverage/lcov.info
