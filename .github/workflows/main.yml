@@ -37,4 +37,4 @@ jobs:
       - uses: qltysh/qlty-action/coverage@v1
         with:
           oidc: true
-          files: coverage/lcov.info
+          files: /home/runner/work/example-typescript/example-typescript/coverage/lcov.info
